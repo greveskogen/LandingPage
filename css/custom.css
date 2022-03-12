@@ -183,7 +183,7 @@ header .header-content .header-content-inner p {
   display: flex;
   align-items: center;
   flex-wrap: nowrap;
-  margin-right: 100px;
+  margin-right: 150px;
   margin-bottom: 10px;
   /* height: 200px; */
 }
@@ -246,6 +246,9 @@ header .header-content .header-content-inner p {
     background-color: transparent;
   }
 
+  .section-heading {
+    /* font-size: 20px; */
+  }
   .navbar-default .navbar-header .navbar-brand {
     color: rgba(255, 255, 255, 0.7);
     letter-spacing: 0.5em;
