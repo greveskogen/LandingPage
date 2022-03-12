@@ -36,6 +36,13 @@ header {
   -o-background-size: cover;
 }
 
+/* Her lager jeg mindre skrift.
+Ønsker å skille dem mellom responsiv modus */
+
+.h2-litenskrift {
+  font-size: 25px;
+}
+
 header .header-content {
   position: relative;
   width: 100%;
@@ -183,7 +190,8 @@ header .header-content .header-content-inner p {
   display: flex;
   align-items: center;
   flex-wrap: nowrap;
-  margin-right: 150px;
+  /* margin-right: 150px;
+  margin-left: 200px;*/
   margin-bottom: 10px;
   /* height: 200px; */
 }
@@ -246,9 +254,6 @@ header .header-content .header-content-inner p {
     background-color: transparent;
   }
 
-  .section-heading {
-    /* font-size: 20px; */
-  }
   .navbar-default .navbar-header .navbar-brand {
     color: rgba(255, 255, 255, 0.7);
     letter-spacing: 0.5em;
