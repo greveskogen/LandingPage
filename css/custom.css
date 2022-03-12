@@ -92,7 +92,7 @@ header .header-content .header-content-inner p {
   header .header-content .header-content-inner p {
     margin-right: auto;
     margin-left: auto;
-    max-width: 80%;
+    max-width: 85%; /* Originalt 80% */
     font-size: 18px;
   }
 }
@@ -195,6 +195,7 @@ header .header-content .header-content-inner p {
   margin-bottom: 10px;
   /* height: 200px; */
 }
+
 .content-3 .glyphicon,
 .page-footer .contact .glyphicon {
   font-size: 32px;
@@ -444,4 +445,25 @@ img::-moz-selection {
 
 .bg-primary {
   background-color: yellowgreen;
+}
+
+@media (min-width: 468px) {
+  .logo-text1 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* margin-right: 150px;
+  margin-left: 200px;*/
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    /* height: 200px; */
+  }
+
+  .gvs-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
