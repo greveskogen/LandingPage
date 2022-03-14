@@ -69,6 +69,11 @@ header .header-content .header-content-inner p {
     min-height: 100%;
   }
 
+  /* Vise logo */
+  .navbar-brand-display {
+    display: visible;
+  }
+
   header .header-content {
     position: absolute;
     top: 50%;
@@ -86,7 +91,8 @@ header .header-content .header-content-inner p {
 
   header .header-content .header-content-inner h1 {
     font-size: 100px;
-    margin-bottom: 400px; /* Lagt til denne for å få det høyere */
+    margin-top: 100px; /* margin-top lagt til for å få luft */
+    /* margin-bottom: 400px; /* Lagt til denne for å få det høyere */
   }
 
   header .header-content .header-content-inner p {
@@ -101,6 +107,34 @@ header .header-content .header-content-inner p {
   margin-top: 0;
   margin-bottom: 20px;
 }
+
+/* Justering av knapp for offisiell side */
+
+
+}
+/*.hoyrejustering {
+
+  .venstrejustering {
+  padding-right: 700px;
+  
+  border-radius: 300px;
+  text-transform: uppercase;
+  padding: 15px 30px;
+  display: flex;
+  flex-wrap: wrap;
+  word-break: normal;
+  inline-size: min-content;
+  overflow-wrap: unset;
+}
+*/
+
+/*display: flex;
+  align-items: right;
+  flex-wrap: wrap;
+  margin-right: 150px;
+  margin-left: 200px;
+  margin-bottom: 10px;
+  /* height: 200px; */
 
 .intro {
   color: #fff;
@@ -253,6 +287,11 @@ header .header-content .header-content-inner p {
   .navbar-default {
     border-color: rgba(255, 255, 255, 0.3);
     background-color: transparent;
+  }
+
+  /* Vise logo */
+  .navbar-brand-display {
+    display: visible;
   }
 
   .navbar-default .navbar-header .navbar-brand {
