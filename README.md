@@ -1,4 +1,6 @@
 # LandingPage
-Side som er landingsside for digital produksjon på Greveskogen VGS.
-Uoffisiell.
-Kan brukes som mal for annet innhold.
+Uoffisiell side, under arbeid.
+Skal bli landingsside for digital produksjon på Greveskogen VGS.
+
+Offisiell side: https://www.vtfk.no/skoler/greveskogen-vgs/
+
